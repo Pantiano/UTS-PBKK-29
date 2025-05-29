@@ -17,13 +17,13 @@ class Book_Author extends Model
         'author_id',
     ];
 
-    protected function casts(): array
-    {
-        return [
-            'book_id' => 'ulid',
-            'author_id' => 'ulid',
-        ];
-    }
+    // protected function casts(): array
+    // {
+    //     return [
+    //         'book_id' => 'ulid',
+    //         'author_id' => 'ulid',
+    //     ];
+    // }
 
     public function book(): BelongsTo
     {

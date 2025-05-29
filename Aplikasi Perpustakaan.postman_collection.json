@@ -17,7 +17,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "a94aryrimv2v1I4fiUJeebaAg0z9KqkFrwq465nR0393a00c",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
 									"type": "string"
 								}
 							]
@@ -41,17 +41,27 @@
 				{
 					"name": "Get Pengguna by Id",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
+									"type": "string"
+								}
+							]
+						},
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api/user/01jsd89djv0b88380h9e212rdf",
+							"raw": "{{base_url}}/api/user/01jwencnc1pkm0e6200tshzytg",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"api",
 								"user",
-								"01jsd89djv0b88380h9e212rdf"
+								"01jwencnc1pkm0e6200tshzytg"
 							]
 						}
 					},
@@ -60,6 +70,16 @@
 				{
 					"name": "Create Pengguna",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
+									"type": "string"
+								}
+							]
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
@@ -67,17 +87,12 @@
 							"formdata": [
 								{
 									"key": "name",
-									"value": "Desi",
-									"type": "text"
-								},
-								{
-									"key": "username",
-									"value": "desi_99",
+									"value": "Dona",
 									"type": "text"
 								},
 								{
 									"key": "email",
-									"value": "desi@gmail.com",
+									"value": "donia@gmail.com",
 									"type": "text"
 								},
 								{
@@ -103,6 +118,16 @@
 				{
 					"name": "Update Pengguna",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
+									"type": "string"
+								}
+							]
+						},
 						"method": "PATCH",
 						"header": [
 							{
@@ -118,7 +143,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"name\": \"Charles\",\r\n  \"email\": \"charless@gmail.com\",\r\n  \"username\": \"charles\",\r\n  \"password\": \"password123\"\r\n}",
+							"raw": "{\r\n  \"name\": \"Charles\",\r\n  \"email\": \"charless@gmail.com\",\r\n  \"password\": \"password123\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -126,14 +151,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{base_url}}/api/user/01jsdd7shbk2ftj5ww8xh4f4s9",
+							"raw": "{{base_url}}/api/user/01jwek9cwkcwvyrg363dmb5w46",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"api",
 								"user",
-								"01jsdd7shbk2ftj5ww8xh4f4s9"
+								"01jwek9cwkcwvyrg363dmb5w46"
 							]
 						}
 					},
@@ -142,17 +167,27 @@
 				{
 					"name": "Hapus Pengguna",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
+									"type": "string"
+								}
+							]
+						},
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api/user/01jsdefpse172kdm3gy9vt6ty7",
+							"raw": "{{base_url}}/api/user/01jwe43wyccmcpmc9yt1tgj92v",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"api",
 								"user",
-								"01jsdefpse172kdm3gy9vt6ty7"
+								"01jwe43wyccmcpmc9yt1tgj92v"
 							]
 						}
 					},
@@ -203,7 +238,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "a94aryrimv2v1I4fiUJeebaAg0z9KqkFrwq465nR0393a00c",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
 									"type": "string"
 								}
 							]
@@ -227,6 +262,16 @@
 				{
 					"name": "Get Author by Id",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
+									"type": "string"
+								}
+							]
+						},
 						"method": "GET",
 						"header": [],
 						"url": {
@@ -246,6 +291,16 @@
 				{
 					"name": "Create Author",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
+									"type": "string"
+								}
+							]
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
@@ -253,34 +308,29 @@
 							"formdata": [
 								{
 									"key": "name",
-									"value": "Desi",
+									"value": "Sumbul",
 									"type": "text"
 								},
 								{
-									"key": "username",
-									"value": "desi_99",
+									"key": "nationality",
+									"value": "Jawa Timur",
 									"type": "text"
 								},
 								{
-									"key": "email",
-									"value": "desi@gmail.com",
-									"type": "text"
-								},
-								{
-									"key": "password",
-									"value": "password",
+									"key": "birthdate",
+									"value": "2005-05-29",
 									"type": "text"
 								}
 							]
 						},
 						"url": {
-							"raw": "{{base_url}}/api/user",
+							"raw": "{{base_url}}/api/author",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"api",
-								"user"
+								"author"
 							]
 						}
 					},
@@ -289,6 +339,16 @@
 				{
 					"name": "Update Author",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
+									"type": "string"
+								}
+							]
+						},
 						"method": "PATCH",
 						"header": [
 							{
@@ -304,7 +364,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"name\": \"Charles\",\r\n  \"email\": \"charless@gmail.com\",\r\n  \"username\": \"charles\",\r\n  \"password\": \"password123\"\r\n}",
+							"raw": "{\r\n  \"name\": \"Charles\",\r\n  \"nationality\": \"banjar\",\r\n  \"birthdate\": \"password123\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -312,14 +372,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{base_url}}/api/author/01jsdd7shbk2ftj5ww8xh4f4s9",
+							"raw": "{{base_url}}/api/author/01jwem789710fs84eaww99xz4z",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"api",
 								"author",
-								"01jsdd7shbk2ftj5ww8xh4f4s9"
+								"01jwem789710fs84eaww99xz4z"
 							]
 						}
 					},
@@ -328,17 +388,27 @@
 				{
 					"name": "Hapus Author",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
+									"type": "string"
+								}
+							]
+						},
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api/author/01jsdefpse172kdm3gy9vt6ty7",
+							"raw": "{{base_url}}/api/author/01jwekg7qxh3wjmdm4de9amshy",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"api",
 								"author",
-								"01jsdefpse172kdm3gy9vt6ty7"
+								"01jwekg7qxh3wjmdm4de9amshy"
 							]
 						}
 					},
@@ -389,7 +459,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "a94aryrimv2v1I4fiUJeebaAg0z9KqkFrwq465nR0393a00c",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
 									"type": "string"
 								}
 							]
@@ -413,6 +483,16 @@
 				{
 					"name": "Get Book by Id",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
+									"type": "string"
+								}
+							]
+						},
 						"method": "GET",
 						"header": [],
 						"url": {
@@ -432,29 +512,44 @@
 				{
 					"name": "Create Book",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
+									"type": "string"
+								}
+							]
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "name",
-									"value": "Desi",
+									"key": "title",
+									"value": "Algoritma logika",
 									"type": "text"
 								},
 								{
-									"key": "username",
-									"value": "desi_99",
+									"key": "isbn",
+									"value": "38943",
 									"type": "text"
 								},
 								{
-									"key": "email",
-									"value": "desi@gmail.com",
+									"key": "publisher",
+									"value": "Majalahan",
 									"type": "text"
 								},
 								{
-									"key": "password",
-									"value": "password",
+									"key": "year_published",
+									"value": "1992",
+									"type": "text"
+								},
+								{
+									"key": "stock",
+									"value": "1",
 									"type": "text"
 								}
 							]
@@ -475,6 +570,16 @@
 				{
 					"name": "Update Book",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
+									"type": "string"
+								}
+							]
+						},
 						"method": "PATCH",
 						"header": [
 							{
@@ -490,13 +595,42 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"name\": \"Charles\",\r\n  \"email\": \"charless@gmail.com\",\r\n  \"username\": \"charles\",\r\n  \"password\": \"password123\"\r\n}",
+							"raw": "{\r\n  \"title\": \"sisii\",\r\n  \"isbn\": \"298374\",\r\n  \"publisher\": \"charles\",\r\n  \"year_published\": \"2017\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
+						"url": {
+							"raw": "{{base_url}}/api/book/01jwenph60yt0tnbszsfba4hhm",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"book",
+								"01jwenph60yt0tnbszsfba4hhm"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Hapus Book",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
 						"url": {
 							"raw": "{{base_url}}/api/book/01jsdd7shbk2ftj5ww8xh4f4s9",
 							"host": [
@@ -506,25 +640,6 @@
 								"api",
 								"book",
 								"01jsdd7shbk2ftj5ww8xh4f4s9"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "Hapus Book",
-					"request": {
-						"method": "DELETE",
-						"header": [],
-						"url": {
-							"raw": "{{base_url}}/api/book/01jsdefpse172kdm3gy9vt6ty7",
-							"host": [
-								"{{base_url}}"
-							],
-							"path": [
-								"api",
-								"book",
-								"01jsdefpse172kdm3gy9vt6ty7"
 							]
 						}
 					},
@@ -575,7 +690,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "a94aryrimv2v1I4fiUJeebaAg0z9KqkFrwq465nR0393a00c",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
 									"type": "string"
 								}
 							]
@@ -583,13 +698,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api/user/",
+							"raw": "{{base_url}}/api/book_author/",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"api",
-								"user",
+								"book_author",
 								""
 							]
 						}
@@ -599,17 +714,27 @@
 				{
 					"name": "Get book_author by Id",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
+									"type": "string"
+								}
+							]
+						},
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api/book_author/01jsd89djv0b88380h9e212rdf",
+							"raw": "{{base_url}}/api/book_author/01jwemx8ct9qd33achzme1e52j",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"api",
 								"book_author",
-								"01jsd89djv0b88380h9e212rdf"
+								"01jwemx8ct9qd33achzme1e52j"
 							]
 						}
 					},
@@ -618,29 +743,29 @@
 				{
 					"name": "Create book_author",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
+									"type": "string"
+								}
+							]
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "name",
-									"value": "Desi",
+									"key": "book_id",
+									"value": "01jweky0ex6vz20ytc3q91wjv8",
 									"type": "text"
 								},
 								{
-									"key": "username",
-									"value": "desi_99",
-									"type": "text"
-								},
-								{
-									"key": "email",
-									"value": "desi@gmail.com",
-									"type": "text"
-								},
-								{
-									"key": "password",
-									"value": "password",
+									"key": "author_id",
+									"value": "01jwem789710fs84eaww99xz4z",
 									"type": "text"
 								}
 							]
@@ -661,6 +786,16 @@
 				{
 					"name": "Update book_author",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
+									"type": "string"
+								}
+							]
+						},
 						"method": "PATCH",
 						"header": [
 							{
@@ -676,7 +811,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"name\": \"Charles\",\r\n  \"email\": \"charless@gmail.com\",\r\n  \"username\": \"charles\",\r\n  \"password\": \"password123\"\r\n}",
+							"raw": "{\r\n  \"book_id\": \"01jwenfawmt6ygwsb7h71dnbfq\",\r\n  \"author_id\": \"charless@gmail.com\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -700,6 +835,16 @@
 				{
 					"name": "Hapus book_author",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
+									"type": "string"
+								}
+							]
+						},
 						"method": "DELETE",
 						"header": [],
 						"url": {
@@ -761,7 +906,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "a94aryrimv2v1I4fiUJeebaAg0z9KqkFrwq465nR0393a00c",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
 									"type": "string"
 								}
 							]
@@ -785,17 +930,27 @@
 				{
 					"name": "Get loan by Id",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
+									"type": "string"
+								}
+							]
+						},
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api/user/01jsd89djv0b88380h9e212rdf",
+							"raw": "{{base_url}}/api/loan/01jwen5yaxe6aw6e5j2r6bgc1b",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"api",
-								"user",
-								"01jsd89djv0b88380h9e212rdf"
+								"loan",
+								"01jwen5yaxe6aw6e5j2r6bgc1b"
 							]
 						}
 					},
@@ -804,41 +959,41 @@
 				{
 					"name": "Create loan",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
+									"type": "string"
+								}
+							]
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "name",
-									"value": "Desi",
+									"key": "user_id",
+									"value": "01jwek9cwkcwvyrg363dmb5w46",
 									"type": "text"
 								},
 								{
-									"key": "username",
-									"value": "desi_99",
-									"type": "text"
-								},
-								{
-									"key": "email",
-									"value": "desi@gmail.com",
-									"type": "text"
-								},
-								{
-									"key": "password",
-									"value": "password",
+									"key": "book_id",
+									"value": "01jwenfawmt6ygwsb7h71dnbfq",
 									"type": "text"
 								}
 							]
 						},
 						"url": {
-							"raw": "{{base_url}}/api/user",
+							"raw": "{{base_url}}/api/loan",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"api",
-								"user"
+								"loan"
 							]
 						}
 					},
@@ -847,6 +1002,16 @@
 				{
 					"name": "Update loan",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
+									"type": "string"
+								}
+							]
+						},
 						"method": "PATCH",
 						"header": [
 							{
@@ -862,7 +1027,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"name\": \"Charles\",\r\n  \"email\": \"charless@gmail.com\",\r\n  \"username\": \"charles\",\r\n  \"password\": \"password123\"\r\n}",
+							"raw": "{\r\n  \"user_id\": \"01jwencnc1pkm0e6200tshzytg\",\r\n  \"book_id\": \"01jwenfawmt6ygwsb7h71dnbfq\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -870,14 +1035,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{base_url}}/api/loan/01jsdd7shbk2ftj5ww8xh4f4s9",
+							"raw": "{{base_url}}/api/loan/01jwen5yaxe6aw6e5j2r6bgc1b",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"api",
 								"loan",
-								"01jsdd7shbk2ftj5ww8xh4f4s9"
+								"01jwen5yaxe6aw6e5j2r6bgc1b"
 							]
 						}
 					},
@@ -886,17 +1051,27 @@
 				{
 					"name": "Hapus loan",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "gTNCCGSIZxgn7bl849ovvK03itmxlk1lsRCDaJwa8bab136d",
+									"type": "string"
+								}
+							]
+						},
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api/loan/01jsdefpse172kdm3gy9vt6ty7",
+							"raw": "{{base_url}}/api/loan/01jwengez3z9zzbgnfz4khvr9z",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"api",
 								"loan",
-								"01jsdefpse172kdm3gy9vt6ty7"
+								"01jwengez3z9zzbgnfz4khvr9z"
 							]
 						}
 					},
